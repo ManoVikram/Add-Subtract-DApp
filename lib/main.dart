@@ -39,8 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   final String rpcURL = "http://127.0.0.1:7545";
   final String contractName = "AddAndSubtract";
-  final String privateKey =
-      "";
+  final String privateKey = "";
 
   late Client httpClient;
   late Web3Client ethClient;
